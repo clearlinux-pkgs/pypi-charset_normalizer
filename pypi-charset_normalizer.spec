@@ -6,10 +6,10 @@
 # autospec commit: 250a666
 #
 Name     : pypi-charset_normalizer
-Version  : 3.3.1
-Release  : 37
-URL      : https://files.pythonhosted.org/packages/6d/b3/aa417b4e3ace24067f243e45cceaffc12dba6b8bd50c229b43b3b163768b/charset-normalizer-3.3.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/6d/b3/aa417b4e3ace24067f243e45cceaffc12dba6b8bd50c229b43b3b163768b/charset-normalizer-3.3.1.tar.gz
+Version  : 3.3.2
+Release  : 38
+URL      : https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz
 Summary  : The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 Group    : Development/Tools
 License  : MIT
@@ -89,10 +89,10 @@ python3 components for the pypi-charset_normalizer package.
 
 
 %prep
-%setup -q -n charset-normalizer-3.3.1
-cd %{_builddir}/charset-normalizer-3.3.1
+%setup -q -n charset-normalizer-3.3.2
+cd %{_builddir}/charset-normalizer-3.3.2
 pushd ..
-cp -a charset-normalizer-3.3.1 buildavx2
+cp -a charset-normalizer-3.3.2 buildavx2
 popd
 
 %build
@@ -100,7 +100,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1698018635
+export SOURCE_DATE_EPOCH=1698851377
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
