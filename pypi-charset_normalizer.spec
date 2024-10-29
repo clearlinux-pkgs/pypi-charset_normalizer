@@ -7,7 +7,7 @@
 #
 Name     : pypi-charset_normalizer
 Version  : 3.4.0
-Release  : 40
+Release  : 41
 URL      : https://files.pythonhosted.org/packages/f2/4f/e1808dc01273379acc506d18f1504eb2d299bd4131743b9fc54d7be4df1e/charset_normalizer-3.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f2/4f/e1808dc01273379acc506d18f1504eb2d299bd4131743b9fc54d7be4df1e/charset_normalizer-3.4.0.tar.gz
 Summary  : The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
@@ -100,7 +100,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1728484255
+export SOURCE_DATE_EPOCH=1730207459
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
